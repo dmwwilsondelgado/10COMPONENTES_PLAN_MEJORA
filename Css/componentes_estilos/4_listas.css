@@ -1,0 +1,90 @@
+.grupos{
+    margin: 30px auto;
+    list-style-type: none;
+}
+.contenedores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grupos__lista{
+    display: block;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 auto;
+    border: solid 2px var(--negro);
+    cursor: pointer;
+}
+.grupos__lista:first-of-type{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.grupos__lista:last-of-type{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* ------Primera modificacion------ */
+.grupos__lista--fondo_azul_pastel:hover{
+    background-color: var(--azul_pastel);
+    color: var(--azul_noche);
+    font-size: 15px;
+    font-family: "Recursive", sans-serif;
+    border-radius: 8px;
+    margin: 5px auto;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px var(--negro);
+}
+/* ------Segunda modificacion------ */
+.grupos__lista--fondo_azul_noche-sombra-azul_noche_azul_pastel{
+    background-color: var(--azul_grisaceo);
+    color: var(--azul_noche);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+}
+.grupos__lista--fondo_azul_noche-sombra-azul_noche_azul_pastel:hover{
+    background-color: var(--azul_noche);
+    color: var(--azul_grisaceo);
+    box-shadow: 0 4px 8px var(--azul_noche),0 0 15px var(--azul_pastel);
+    border-color: var(--azul_grisaceo);
+    width: 350px;
+    height: 55px;
+}
+/* ------Tercera modificacion------ */
+.grupos__lista--fondo_azul_noche-active_azul_grisaceo{    
+    background-color: var(--azul_noche);
+    color: var(--azul_grisaceo);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+}
+.grupos__lista--fondo_azul_noche-active_azul_grisaceo:hover{
+    background-color: var(--azul_pastel);
+    box-shadow: 0 8px 16px var(--azul_pastel);
+    width: 350px;
+    height: 55px;   
+}
+.grupos__lista--fondo_azul_noche-active_azul_grisaceo:active{
+    background-color: var(--azul_grisaceo);
+    box-shadow: 0 4px 8px var(--azul_grisaceo);
+    color: var(--azul_noche);
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    transition: all 0.2s;
+}
+/* ------Cuarta modificacion------ */
+.grupos__lista--fondo_degradado_azul_pastel-azul_noche-azul_grisaceo{
+    background-color: var(--azul_noche);
+    color: var(--azul_grisaceo);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+}
+.grupos__lista--fondo_degradado_azul_pastel-azul_noche-azul_grisaceo:hover{
+    background: linear-gradient(to bottom right,var(--azul_pastel), var(--azul_noche),var(--azul_grisaceo));
+    color: var(--azul_grisaceo);
+    font-size: 20px;
+    border: 4px solid var(--azul_grisaceo);
+    transition: all 0.3s;  
+}

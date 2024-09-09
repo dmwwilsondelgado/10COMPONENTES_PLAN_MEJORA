@@ -1,0 +1,30 @@
+.contenedor-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor-inicio__mensaje{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px;
+    border: 2px solid var(--beige_claro);
+    color: var(--beige_claro);
+    background-color: var(--gris_azulado_profundo);
+    box-shadow: 0 4px 8px var(--gris_azulado_profundo);
+}
+.contenedor-inicio__mensaje:hover{
+    background-color: var(--gris_azulado);
+    border-color: var(--gris_azulado);
+    box-shadow: 0 8px 16px var(--gris_azulado);
+}
+.contenedor-inicio__mensaje:active{
+    box-shadow: 0 4px 8px var(--gris_azulado_profundo);
+}

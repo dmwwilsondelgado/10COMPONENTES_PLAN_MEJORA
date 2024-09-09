@@ -1,0 +1,84 @@
+.insignia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insignia__contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 30px auto;
+}
+
+.insignia__etiqueta{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -8px;
+    right: 60px;
+    padding: 5px 10px;
+    background-color: var(--azul_cielo_nocturno);
+    color: var(--gris_azulado_claro);
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.insignia__icono{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: var(--gris_azulado_claro);
+    color: var(--azul_cielo_nocturno);
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ------Primera modificacion------ */
+.insignia__icono--hover_sombra_azul_cielo_nocturno:hover{
+    box-shadow: 5px 5px 5px var(--azul_cielo_nocturno);
+    transition: all 0.5s ease-in-out;
+}
+/* ------Segunda modificacion------ */
+.insignia__icono--chat_hover_aumento_tamaño{
+    transition: all 0.5s ease-in-out;
+}
+.insignia__etiqueta--hover-aumento_tamaño{
+    transition: all 0.5s ease-in-out;
+}
+.insignia__contenedor--aumento-tamaño:hover .insignia__icono--chat_hover_aumento_tamaño{
+    width: 75px;
+    height: 75px;
+    font-size: 45px;
+}
+.insignia__contenedor--aumento-tamaño:hover .insignia__etiqueta--hover-aumento_tamaño{
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: 55px;
+    font-size: 16px;
+}
+/* ------Tercera modificacion------ */
+.insignia__etiqueta--fondo_gris_azulado_claro-hover_sombra_icono_gris_azulado_claro-rotacion{
+    background-color: var(--gris_azulado_claro);
+    color: var(--azul_cielo_nocturno);
+}
+.insignia__icono--grupo-fondo_azul_cielo_nocturno-hover-sombra_texto_gris_azulado_claro{
+    background-color: var(--azul_cielo_nocturno);
+    color: var(--gris_azulado_claro);
+}
+.insignia__icono--grupo-fondo_azul_cielo_nocturno-hover-sombra_texto_gris_azulado_claro:hover{
+    text-shadow: 0 0 10px var(--gris_azulado_claro);
+    transform: rotate(15deg);
+}
+/* ------Cuarta modificacion------ */
+.insignia__icono--compras_hover-degradado_circulo_gris_azulado_claro-azul_cielo_nocturno:hover{
+    background: radial-gradient(circle,var(--gris_azulado_claro),var(--azul_cielo_nocturno));
+}

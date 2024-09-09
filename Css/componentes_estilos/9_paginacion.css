@@ -1,0 +1,87 @@
+.paginacion__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 40px auto;
+}
+.paginacion__link{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--negro);
+    color: var(--negro);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.paginacion__link:hover{
+    background-color: var(--gris_carbon);
+    color: var(--turquesa_claro);
+}
+/* ------Primera modificacion------ */
+.paginacion__link--transicion-hover_texto_sombra_turquesa_claro_aumento_tamaño{
+    transition: all 0.3s ease-in-out;
+}
+.paginacion__link--transicion-hover_texto_sombra_turquesa_claro_aumento_tamaño:hover{
+    text-shadow: 0 0 10px var(--turquesa_claro),
+    0 0 20px var(--turquesa_claro),
+    0 0 30px var(--turquesa_claro);
+    width: 60px;
+    height: 60px;
+}
+/* ------Segunda modificacion------ */
+.paginacion__link--fondo_gris_carbon_transicion-hover_fondo_turquesa_claro_sombra_gris_carbon-active-fondo_turquesa_oscuro{
+    background-color: var(--gris_carbon);
+    color: var(--turquesa_claro);
+    transition: all 0.3s ease;
+}
+.paginacion__link--fondo_gris_carbon_transicion-hover_fondo_turquesa_claro_sombra_gris_carbon-active-fondo_turquesa_oscuro:hover{
+    background-color: var(--turquesa_claro);
+    color: var(--gris_carbon);
+    border: 2px solid var(--turquesa_claro);
+    box-shadow: 0 4px 8px var(--gris_carbon);
+}
+.paginacion__link--fondo_gris_carbon_transicion-hover_fondo_turquesa_claro_sombra_gris_carbon-active-fondo_turquesa_oscuro:active{
+    background-color: var(--turquesa_oscuro);
+    color: var(--gris_carbon);
+    border: 2px solid var(--turquesa_oscuro);
+}
+/* ------Tercera modificacion------ */
+.paginacion__link--transicion-hover_degradado_turquesa_claro_turquesa_oscuro_sombra_verde_esmeralda_oscuro_rotacion{
+    transition: all 0.3s ease;
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    border: 2px solid var(--gris_carbon);
+}
+.paginacion__link--transicion-hover_degradado_turquesa_claro_turquesa_oscuro_sombra_verde_esmeralda_oscuro_rotacion:hover{
+    background: linear-gradient(45deg,var(--turquesa_claro),var(--turquesa_oscuro));
+    color: var(--gris_carbon);
+    box-shadow: 0 6px 12px var(--verde_esmeralda_oscuro);
+    transform: rotate(15deg);
+}
+/* ------Cuarta modificacion------ */
+.paginacion__contenedor--fondo_turquesa_claro_borde_redondeado{
+    background-color: var(--turquesa_oscuro);
+    width: 550px;
+    height: 100px;
+    border-radius: 10px;
+}
+.paginacion__link--redondeado_transicion_opacidad-hover_texto_sombra_griscarbon_turquesa_claro_fondo_gris_carbon_sombra_turquesa_claro{
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.2;
+    position: relative;
+    top: 0;
+}
+.paginacion__link--redondeado_transicion_opacidad-hover_texto_sombra_griscarbon_turquesa_claro_fondo_gris_carbon_sombra_turquesa_claro:hover{
+    text-shadow: 0px 0px 4px var(--gris_carbon),0px 0px 8px var(--turquesa_claro);
+    top: -5px;
+    opacity: 1;
+    background-color: var(--gris_carbon);
+    box-shadow: 0 0 10px var(--turquesa_claro);
+}

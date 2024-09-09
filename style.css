@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url(Css/Interfaz_ingreso_componentes/interfaz_ingreso.css);
+@import url(Css/Interfaz_navegacion/interfaz.css);
+@import url(Css/Variables/variables.css);
+@import url(Css/componentes_estilos/1_acordion.css);
+@import url(Css/componentes_estilos/2_grupo_botones.css);
+@import url(Css/componentes_estilos/3_tarjetas.css);
+@import url(Css/componentes_estilos/4_listas.css);
+@import url(Css/componentes_estilos/4.5_progress-bar.css);
+@import url(Css/componentes_estilos/5_barra_de_navegacion.css);
+@import url(Css/componentes_estilos/6_alertas.css);
+@import url(Css/componentes_estilos/7_menu_desplegable.css);
+@import url(Css/componentes_estilos/8_insignia.css);
+@import url(Css/componentes_estilos/9_paginacion.css);
+@import url(Css/componentes_estilos/10_tablas.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    /* background-color: var(--beige_arena); */
+    /* background: linear-gradient(0deg, rgba(175,29,223,1) 0%, rgba(35,85,245,0.9808123078332895) 100%); */
+    /* background-image: url(../10COMPONENTES_PLAN_MEJORA/imagen/logoSena.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_Sena img{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}

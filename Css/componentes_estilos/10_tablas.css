@@ -1,0 +1,69 @@
+.tabla-carros{
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tabla-carros__titulo{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.tabla-carros__encabezado_celda{
+    border: 2px solid var(--negro);
+    font-size: 15px;
+    padding: 10px;
+}
+.tabla-carros__celda{
+    font-size: 13px;
+    border: 2px solid var(--negro);
+}
+/* ------Primera modificacion------ */
+.tabla-carros__encabezado_celda--fondo_azul_suave_cielo{
+    background-color: var(--azul_suave_cielo);
+}
+.tabla-carros__celda--fondo_marfil-hover_fondo_azul_oscuro_negro_texto_marfil{
+    background-color: var(--marfil);
+}
+.tabla-carros__celda--fondo_marfil-hover_fondo_azul_oscuro_negro_texto_marfil:hover{
+    background-color: var(--azul_oscuro_negro);
+    color: var(--marfil);
+}
+/* ------Segunda modificacion------ */
+.tabla-carros__encabezado_celda--fondo_azul_oscuro_negro_texto_marfil{
+    background-color: var(--azul_oscuro_negro);
+    color: var(--marfil);
+}
+.tabla-carros__celda--fondo_marfil-hover_texto_centrado_sombra_azul_oscuro_negro{
+    background-color: var(--marfil);
+}
+.tabla-carros__celda--fondo_marfil-hover_texto_centrado_sombra_azul_oscuro_negro:hover{
+    text-align: center;
+    text-shadow: 2px 0px 8px var(--azul_oscuro_negro);
+}
+/* ------Tercera modificacion------ */
+.tabla-carros__encabezado_celda--fondo_degradado_marfil_azul_oscuro_negro_texto_azul_oscuro_negro{
+    color: var(--azul_oscuro_negro);
+    background: linear-gradient(100deg,var(--marfil),var(--azul_oscuro_negro));
+}
+.tabla-carros__celda--fondo_azul_acero{
+    background-color:var(--azul_acero);
+}
+.tabla-carros__encabezado_celda--fondo_degradado_marfil_azul_oscuro_negro_texto_azul_oscuro_negro:hover,
+.tabla-carros__celda--fondo_azul_acero:hover{
+    border: 4px solid var(--marfil);
+}
+/* ------Cuarta modificacion------ */
+.tabla-carros__encabezado_celda--fondo_marfil_texto_azul_acero{
+    background-color: var(--marfil);
+    color: var(--azul_acero);
+}
+.tabla-carros__celda--fondo_azul_suave_cielo-hover_texto_marfil_derecha_agrandado_transicion{
+    background-color: var(--azul_suave_cielo);
+}
+.tabla-carros__celda--fondo_azul_suave_cielo-hover_texto_marfil_derecha_agrandado_transicion:hover{
+    color: var(--marfil);
+    text-align: end;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,140 @@
+.alerta{
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gris_blanco_humo);
+    border: 1px solid var(--gris_plateado);
+    margin: 20px auto;
+    width: 450px;
+    height: 60px;
+}
+.alerta__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alerta__icono{
+    font-size: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.alerta__tipo{
+    font-weight: bold;
+    margin-right: 15px;
+    color: var(--gris_medio);
+}
+.alerta__mensaje{
+    margin-top: 5px;
+    color: var(--gris_oscuro);
+}
+/* ------Primera modificacion------ */
+.alerta--fondo_rosa_pastel{
+    background-color: var(--rosa_pastel);
+    border: 2px solid var(--rosa_pastel_oscuro);
+}
+.alerta__icono--icono_peligro_rojo_intenso{
+    color: var(--rojo_intenso);
+}
+.alerta__tipo--rojo_intenso{
+    color: var(--rojo_intenso);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__mensaje--rojo-intenso{
+    color: var(--rojo_intenso);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* ------Segunda modificacion------ */
+.alerta--fondo_verde_pastel{
+    background-color: var(--verde_pastel);
+    border: 2px solid var(--verde_pastel_medio);
+}
+.alerta--fondo_verde_pastel:hover{
+    background-color: var(--verde_bosque);
+}
+.alerta__icono--icono_suceso_verde_bosque{
+    color: var(--verde_bosque);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__tipo--verde_bosque{
+    color: var(--verde_bosque);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__mensaje--verde-bosque{
+    color: var(--verde_bosque);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta--fondo_verde_pastel:hover .alerta__icono--icono_suceso_verde_bosque,
+.alerta--fondo_verde_pastel:hover .alerta__tipo--verde_bosque,
+.alerta--fondo_verde_pastel:hover .alerta__mensaje--verde-bosque{
+    color: var(--verde_pastel);
+}
+/* ------Tercera modificacion------ */
+.alerta--fondo_azul_celeste_intenso-sombra_azul_claro-azul_marino_profundo{
+    background-color: var(--azul_celeste_intenso);
+    border: 2px solid var(--azul_claro);
+    transition: all 0.4s ease-in-out;
+}
+.alerta--fondo_azul_celeste_intenso-sombra_azul_claro-azul_marino_profundo:hover{
+    width: 470px;
+    height: 70px;
+    box-shadow: 0 10px 20px var(--azul_claro),0 0 0 5px var(--azul_marino_profundo);
+    background-color: var(--azul_marino_profundo);
+    border: 2px solid var(--azul_celeste_intenso);
+}
+.alerta__icono--icono_info_azul_marino_profundo{
+    color: var(--azul_marino_profundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__tipo--azul_marino_profundo{
+    color: var(--azul_marino_profundo);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__mensaje--azul_marino-profundo{
+    color: var(--azul_marino_profundo);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta--fondo_azul_celeste_intenso-sombra_azul_claro-azul_marino_profundo:hover .alerta__icono--icono_info_azul_marino_profundo,
+.alerta--fondo_azul_celeste_intenso-sombra_azul_claro-azul_marino_profundo:hover .alerta__tipo--azul_marino_profundo,
+.alerta--fondo_azul_celeste_intenso-sombra_azul_claro-azul_marino_profundo:hover .alerta__mensaje--azul_marino-profundo{
+    color: var(--azul_celeste_intenso);
+}
+/* ------Cuarta modificacion------ */
+
+.alerta--fondo_amarillo_dorado_claro{
+    background-color:var(--amarillo_dorado_claro);
+    border: 2px solid var(--amarillo_brillante);
+}
+.alerta__icono--icono_advertencia_mostaza_oscuro{
+    color: var(--mostaza_oscuro);
+}
+.alerta__tipo--mostaza_oscuro{
+    color: var(--mostaza_oscuro);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alerta__mensaje--mostaza-oscuro{
+    color: var(--mostaza_oscuro);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.alerta--fondo_amarillo_dorado_claro:hover{
+    background-color: var(--mostaza_oscuro);
+}
+.alerta--fondo_amarillo_dorado_claro:hover .alerta__icono--icono_advertencia_mostaza_oscuro{
+    color: var(--amarillo_brillante);
+    text-shadow: 0 0 10px var(--amarillo_brillante);
+    transform: rotate(10deg);
+}
+.alerta--fondo_amarillo_dorado_claro:hover .alerta__tipo--mostaza_oscuro,
+.alerta--fondo_amarillo_dorado_claro:hover .alerta__mensaje--mostaza-oscuro{
+    color: var(--amarillo_brillante);
+    text-shadow: 0 0 10px var(--amarillo_brillante);
+}

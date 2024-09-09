@@ -1,0 +1,105 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu__nav{
+    margin: 30px auto;
+}
+.menu__contenedor{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    background-color: var(--azul_marino_oscuro);
+}
+.menu__icono{
+    font-size: 10px;
+    padding-left: 10px;
+}
+.menu__submenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--azul_marino_oscuro);
+    width: 100px;
+    visibility: hidden;
+}
+.menu__submenu-item{
+    display: block;
+    padding: 15px;
+    color: var(--blanco);
+}
+.menu__item:hover .menu__submenu{
+    visibility: visible;
+}
+/* ------Primera modificacion------ */
+.menu__item--fondo_verdoso_grisaceo:hover{
+    background-color: var(--verdoso_grisaceo);
+    box-shadow: 0 4px 8px var(--negro);
+}
+.menu__submenu-item--sombra_verde_aqua-verde_petroleo:hover{
+    color: var(--blanco);
+    background-color: var(--verdoso_grisaceo);
+    box-shadow: 0 4px 8px var(--verde_aqua_claro),0 0 15px var(--verde_petroleo);
+    padding: 15px 20px;
+}
+/* ------Segunda modificacion------ */
+.menu__submenu--degradado_azul_marino_oscuro-verde_aqua_claro{
+    transition: all 0.5s ease;
+}
+
+.menu__item--degradado_azul_marino-verde_aqua:hover .menu__submenu--degradado_azul_marino_oscuro-verde_aqua_claro{
+    background: linear-gradient(180deg,var(--azul_marino_oscuro),var(--verde_aqua_claro));
+}
+.menu__submenu-item--degradado_verde_agua-verde_petroleo{
+    background: transparent;
+    border-bottom: 2px solid var(--blanco);
+}
+.menu__submenu-item--degradado_verde_agua-verde_petroleo:hover{
+    background: linear-gradient(90deg,var(--verde_aqua_claro),var(--verde_petroleo));
+    border-left: 3px solid var(--blanco);
+}
+/* ------Tercera modificacion------ */
+.menu__submenu-item--fondo_verde_aqua-transicion_opacidad-sombra_texto_verde_agua-verdoso_grisaceo{
+    transition: all 0.4s ease-in-out;
+    opacity: 0.2;
+    position: relative;
+    top: 0;
+}
+.menu__submenu-item--fondo_verde_aqua-transicion_opacidad-sombra_texto_verde_agua-verdoso_grisaceo:hover{
+    text-shadow: 0px 0px 4px var(--verde_aqua_claro),0px 0px 8px var(--verdoso_grisaceo);
+    top: -5px;
+    opacity: 1;
+    background-color: var(--verde_aqua_claro);
+    box-shadow: 0 0 5px var(--verdoso_grisaceo);
+}
+/* ------Cuarta modificacion------ */
+.menu__submenu-item--barra_desplazamiento_derecha-verde_aqua_claro{
+    position: relative;
+    z-index: 1;
+}
+.menu__submenu-item--barra_desplazamiento_derecha-verde_aqua_claro::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--verde_aqua_claro);
+    transition: width 0.5s;
+    z-index: -1;
+}
+.menu__submenu-item--barra_desplazamiento_derecha-verde_aqua_claro:hover:before{
+    width: 100%;
+}

@@ -1,0 +1,74 @@
+:root{
+  /* color de fondo de todo el cuerpo */
+  --beige_arena:#5deb32;
+  /* colores acordion */
+  --Rojo_Florecente:#ff3f3f;
+  --gris_claro:#f2f2f2;
+  --rosa_palido:#f7e2e2;
+  --Verde_palido:#07fcbe;
+  /* colores grupo botones */
+  --verde_oscuro:#307212;
+  --verde_floresente:#36d421;
+  --verde_agua:#77B0AA;
+  --verde_menta:#72f5d2;
+  /* colores tarjetas */
+  --Verde_oscuro:#2cb81f;
+  --azul_marino:#010b8b;
+  --azul_celeste:#0be7fb;
+  --amarillo_mostaza:#fecc50;
+  --rojo_calido:#ff6d69;
+  /* colores grupo de listas */
+  --azul_noche:#25ce16;
+  --azul_pastel:#d6dff1;
+  --azul_grisaceo:#308b0b;
+  /* colores barra de navegacion */
+  --azul_opaco:#007BFF33;
+  --azul_brillante:#007BFF;
+  --azul_medianoche:#0056b3;
+  --gris_plata:#c0c0c0;
+  --negro:#000;
+  --blanco:#fff;
+  /* colores de alertas */
+  --gris_blanco_humo:#f5f5f5;
+  --gris_plateado:#e0e0e0;
+  --gris_medio:#666666;
+  --gris_oscuro:#333333;
+  --rosa_pastel:#f5c6c6;
+  --rosa_pastel_oscuro:#f1b0b7;
+  --rojo_intenso:#a71d2a;
+  --verde_pastel:#a4d8a7;
+  --verde_pastel_medio:#9fcb9f;
+  --verde_bosque:#004d00;
+  --azul_celeste_intenso:#99c2ff;
+  --azul_claro:#80b3ff;
+  --azul_marino_profundo:#002d72;
+  --amarillo_dorado_claro:#ffecb3;
+  --amarillo_brillante:#ffd54f;
+  --mostaza_oscuro:#6d4700;
+  /* colores menu desplegable */
+  --verdoso_grisaceo:#5C8374;
+  --azul_marino_oscuro:#092635;
+  --verde_aqua_claro:#9EC8B9;
+  --verde_petroleo:#1B4242;
+  /* colores insignia */
+  --azul_cielo_nocturno:#164169;
+  --gris_azulado_claro:#d0e1e0;
+  /* colores de paginacion */
+  --turquesa_claro:#00FFF5;
+  --turquesa_oscuro:#009B9F;
+  --verde_esmeralda_oscuro:#004D40;
+  --gris_carbon:#222831;
+  /* colores tablas */
+  --azul_suave_cielo:#83B4FF;
+  --azul_oscuro_negro:#1A2130;
+  --azul_acero:#5A72A0;
+  --marfil:#FDFFE2;
+  /* colores boton ingreso y navegacion */
+  --beige_claro:#F0ECE5;
+  --gris_azulado:#31304D;
+  --gris_azulado_profundo:#161A30;
+  --gris_perla:#B6BBC4;
+  --gris_ceniza:#9E9E9E;
+  --negro_carbon:#121212;
+  --negro_antracita:#1E1E1E;
+}

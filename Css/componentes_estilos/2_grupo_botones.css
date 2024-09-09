@@ -1,0 +1,95 @@
+.grupo{
+  display: flex;
+  width: 400px;
+  height: 50px;
+  margin: 30px auto;
+  justify-content: space-around;
+}
+.grupo__botones{
+  background-color: var(--blanco);
+  border: solid 1px var(--negro);
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;  
+}
+/* ------Primera modificacion------ */
+.grupo__botones--fondo_verde_oscuro-borde_verde_floresente{
+  background-color: var(--blanco);
+  border: solid 2px var(--verde_marino);
+}
+.grupo__botones--fondo_verde_oscuro-borde_verde_floresente:hover{
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
+  transition: all 0.4s;
+  font-size: 20px;
+  border: solid 1px var(--blanco);
+}
+/* ------Segunda modificacion------ */
+.grupo__botones--fondo_verde_agua-texto_verde_oscuro{
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
+  border: solid 2px var(--blanco);
+  width: 100px;
+  border-radius: 20px;
+  transition: all 0.3s ;
+}
+.grupo__botones--fondo_verde_agua-texto_verde_oscuro:hover{
+  background-color: var(--verde_agua);
+  color: var(--verde_oscuro);
+  border: solid 2px var(--verde_oscuro);
+  font-size: 20px;
+  box-shadow: 0 4px 8px var(--negro);
+}
+/* ------Tercera modificacion------ */
+.grupo--fondo_verde_menta-sombra_negra{
+  width: 500px;
+  height: 70px;
+  border-radius: 20px;
+  background-color:var(--verde_agua);
+  padding: 5px;
+  border: solid 10px var(--verde_agua);
+  box-shadow: 0 0 15px var(--negro);
+}
+.grupo__botones--verde_oscuro-sombra_negra{
+  border: solid 2px var(--verde_oscuro);
+  color: var(--verde_agua);
+  width: 80px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.grupo__botones--verde_oscuro-sombra_negra:active{
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
+  border: solid 2px var(--verde_menta);
+  box-shadow: 0 0 15px var(--negro);
+}
+/* ------Cuarta modificacion------ */
+.grupo--fondo_verde_claro{
+  width: 600px;
+  height: 80px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background-color: var(--verde_menta);
+  padding: 10px;
+  box-shadow: 0 4px 8px var(--negro);
+}
+.grupo__botones--verde_marino-sombra_adicional{
+  border: solid 3px var(--verde_marino);
+  width: 80px;
+  color: var(--verde_agua);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.grupo__botones--verde_marino-sombra_adicional:hover{
+  border: 0;
+  background: var(--verde_marino);
+  color: var(--verde_menta);
+  border-radius: 10px;
+  padding: 16px 30px;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--verde_marino);
+}

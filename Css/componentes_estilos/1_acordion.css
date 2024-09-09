@@ -1,0 +1,106 @@
+.acordion{
+    width:400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--Rojo_Florecente);
+    border-radius: 50px;
+}
+
+.acordion__contenedor{
+    width: 350px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--gris_claro);
+    border-radius: 5px;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px var(--negro);
+}
+.acordion__titulo{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--rosa_palido);
+    margin: 5px 0;
+    position: relative;
+    list-style: none;
+}
+
+.acordion__contenido{
+    padding: 10px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--Verde_palido);
+}
+/* ------Primera modificacion------ */
+.acordion--fondo_amarillo_palido-sombra_negra:hover{
+    background-color: var(--Verde_palido);
+    box-shadow: 0px 0px 10px 0px var(--negro);
+    transition: all 0.9s;
+}
+.acordion__titulo--titulo_naranja-flecha_abajo{
+    color: var(--naranja);
+}
+.acordion__contenido--contenido_naranja{
+    color: var(--naranja);
+}
+.acordion__titulo--titulo_naranja-flecha_abajo::before{
+    content: '▼';
+    font-size: 20px;
+    color: var(--negro) ;
+    position: absolute;
+    right: 10px; 
+}
+/* ------Segunda modificacion------ */
+.acordion__titulo--fondo_naranja-aumento_tamaño_titulo-flecha_abajo::before{
+    content: '▼';
+    font-size: 20px;
+    color: var(--negro) ;
+    position: absolute;
+    right: 10px;
+    transition: 0.3s;
+}
+.acordion__titulo--fondo_naranja-aumento_tamaño_titulo-flecha_abajo:focus{
+    background-color: var(--naranja);
+    transition: all 0.2s;
+    font-size: 25px;
+}
+/* ------Tercera modificacion------ */
+.acordion__titulo--centrado_negrita-flecha_abajo::before{
+    content: '▼';
+    font-size: 20px;
+    color: var(--negro);
+    position: absolute;
+    right: 10px;
+}
+.acordion__contenido--fondo_naranja{
+    background-color: var(--naranja);
+}
+.acordion__titulo--centrado_negrita-flecha_abajo:hover{
+    text-align: center;
+    font-weight: bold;
+}
+/* ------Cuarta modificacion------ */
+.acordion--fondo_rosa_palido-borde_redondeado:hover{
+    background-color: var(--rosa_palido);
+    transition: all 0.5s;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.acordion__contenedor--fondo_amarillo_palido{
+    background-color: var(--amarillo_palido);
+}
+.acordion__contenido--fondo_gris_claro{
+    background-color: var(--gris_claro);
+}
+.acordion__titulo--fondo_naranja-redondeado-flecha_abajo::before{
+    content: '▼';
+    font-size: 20px;
+    color: var(--negro);
+    position: absolute;
+    right: 10px;
+}
+.acordion__titulo--fondo_naranja-redondeado-flecha_abajo:hover{
+    background-color: var(--naranja);
+    border-radius: 30px;
+    transition: all 1s;
+}

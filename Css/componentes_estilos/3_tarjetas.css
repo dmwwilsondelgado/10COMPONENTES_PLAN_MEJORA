@@ -1,0 +1,151 @@
+.tarjeta{
+    display: inline-block;
+    background: var(--blanco);
+    width: 330px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px var(--negro);
+    padding: 30px;
+}
+.tarjeta__imagen{
+    display: block;
+    width: 80%;
+    height: 140px;
+    padding: 0px;
+    margin-top: 10px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.tarjeta__titulo{
+    font-family: "Recursive", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.tarjeta__texto{
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px;
+}
+.tarjeta__boton{
+    display: block;
+    color: var(--negro);
+    width: 130px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: solid 2px var(--negro);
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+}
+/* ------Primera modificacion------ */
+.tarjeta--fondo_azul_oscuro-sombra_celeste{
+    background-color: var(--Verde_oscuro);
+    box-shadow: none;
+}
+.tarjeta__imagen--sombra_rojo_calido{
+    filter: drop-shadow(0 0 10px var(--rojo_calido));
+}
+.tarjeta__titulo--amarillo_mostaza{
+    color: var(--amarillo_mostaza);
+}
+.tarjeta__texto--azul_celeste{
+    color: var(--azul_celeste);
+}
+.tarjeta__boton--fondo_azul_celeste{
+    color: var(--blanco);
+    background-color: var(--azul_celeste);
+}
+.tarjeta--fond--Verde_oscuro-sombra_celeste:hover{
+    background-color: var(--Verde_oscuro);
+    box-shadow: 0 4px 8px var(--negro);
+    filter: drop-shadow(0 0 10px var(--azul_celeste));
+}
+/* ------Segunda modificacion------ */
+.tarjeta__titulo--color_azul_oscuro{
+    color: var(--azul_oscuro);
+}
+.tarjeta__texto--color_azul_marinos{
+    color: var(--azul_marino);
+}
+.tarjeta__boton--fondo_amarillo_mostaza{
+    background-color: var(--azul_celeste);
+    color: var(--blanco);
+}
+.tarjeta--fondo_azul_celeste-amarillo_mostaza:hover{
+    background: linear-gradient(to bottom, var(--azul_celeste),var(--amarillo_mostaza));
+    box-shadow: 0 12px 24px var(--negro);
+    border: solid 2px var(--rojo_calido);
+    transition: all 0.5s ease;
+}
+.tarjeta__boton--fondo_amarillo_mostaza:hover{
+    background-color: var(--amarillo_mostaza);
+    color: var(--negro);
+}
+/* ------Tercera modificacion------ */
+.tarjeta--fondo_azul_celeste{
+    background-color: var(--azul_oscuro);
+    box-shadow: 0 4px 8px var(--azul_marino);
+    transition: all 0.3s;
+}
+.tarjeta__titulo--color_azul_marino{
+    color: var(--amarillo_mostaza);
+}
+.tarjeta__texto--azul_marino{
+    color: var(--azul_celeste);
+}
+.tarjeta__boton--fondo_azul_marino{
+    background-color: var(--azul_celeste);
+    color: var(--azul_marino);
+    border: none;
+    border-radius: 4px;
+}
+.tarjeta--fondo_azul_celeste:hover{
+    background-color: var(--azul_celeste);
+    box-shadow: 0 4px 8px var(--azul_marino);
+}
+.tarjeta--fondo_azul_celeste:hover .tarjeta__titulo--color_azul_marino{
+    color: var(--azul_marino)
+}
+.tarjeta--fondo_azul_celeste:hover .tarjeta__texto--azul_marino{
+    color: var(--azul_marino);
+}
+.tarjeta--fondo_azul_celeste:hover .tarjeta__boton--fondo_azul_marino{
+    background-color: var(--azul_marino);
+    color: var(--azul_celeste);
+}
+.tarjeta--fondo_azul_celeste:hover .tarjeta__imagen--sombra_azul_marino{
+    filter: drop-shadow(0 0 10px var(--azul_marino));
+}
+/* ------Cuarta modificacion------ */
+.tarjeta--fondo_azul_marino-sombra_adicional{
+    background-color: var(--azul_oscuro);
+    box-shadow: 0 4px 8px var(--azul_marino);
+    transition: all 0.3s;
+}
+.tarjeta__titulo--amarillo_mostaza{
+    color: var(--amarillo_mostaza);
+}
+.tarjeta__texto--azul_celeste{
+    color: var(--azul_celeste);
+}
+.tarjeta__boton--fondo_celeste{
+    background-color: var(--azul_celeste);
+    color: var(--azul_marino);
+    border: none;
+    border-radius: 4px;
+}
+.tarjeta--fondo_azul_marino-sombra_adicional:hover{
+    border: 0;
+    background-color: var(--azul_marino);
+    border-radius: 10px;
+    padding: 16px 30px;
+    transition: 0.5s;
+    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--azul_marino);
+}
