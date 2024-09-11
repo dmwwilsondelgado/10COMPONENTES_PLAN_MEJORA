@@ -71,4 +71,14 @@
   --gris_ceniza:#9E9E9E;
   --negro_carbon:#121212;
   --negro_antracita:#1E1E1E;
+  /* Colores para barra de progreso */
+  --verde_florecente:#00ff40;
+  --agua_calido:#228be0;
+  --amarillo_pollo:#ffee02;
+  --rojo_sangreado:#ff0000;
+  --negro_contraste:#1f1818;
+  --violeta_claro: #e90ffd;
+  --violeta_rosado:#db0eaf;
+  --Morado_oscuro:#390475;
+  --rosa_florecente:#ff04ab;
 }

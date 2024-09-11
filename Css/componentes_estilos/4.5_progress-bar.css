@@ -1,0 +1,106 @@
+
+.progress {
+    display: flex;
+    height: 1.5rem;
+    overflow: hidden;
+    font-size: 1rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .progress__bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width 0.6s ease, background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Modificadores de color */
+  .progress__bar--success {
+    background-color: var(--verde_florecente);
+  }
+  
+  .progress__bar--info {
+    background-color: var(--agua_calido);
+  }
+  
+  .progress__bar--warning {
+    background-color: var(--amarillo_pollo);
+  }
+  
+  .progress__bar--danger {
+    background-color: var(--rojo_sangreado);
+  }
+  
+  /* Modificador de texto oscuro para mejor contraste */
+  .progress__bar--text-dark {
+    color: var(--negro_contraste);
+  }
+  
+  /* Estilos de interacción */
+  .progress__bar:hover, .progress__bar:focus {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+  
+  /* Estilo de enfoque con outline para accesibilidad */
+  .progress__bar:focus {
+    outline: 2px solid #000;
+    outline-offset: 4px;
+  }
+  
+ /* barras diferentes */
+  /* Animación de ancho creciente */
+  @keyframes growWidth {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Modificadores de color */
+
+
+
+
+
+
+
+  /* segunda barra */
+
+
+
+  /* Estilo base para los contenedores de progreso */
+.my-progress {
+    background-color: #e9ecef; /* Color de fondo del contenedor */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    height: 2rem; /* Altura del contenedor */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 1rem; /* Espacio entre barras */
+    position: relative; /* Posición relativa para los efectos internos */
+  }
+  
+  /* Estilo para las barras de progreso */
+  .my-progress-bar {
+    height: 100%; /* Ajustar altura al contenedor */
+    background-color: #007bff; /* Color de la barra de progreso */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    transition: width 0.6s ease; /* Transición suave */
+  }
+  
+  /* Efecto de hover sobre las barras de progreso */
+  .my-progress:hover .my-progress-bar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+    transform: scale(1.05); /* Ampliar ligeramente */
+  }
+  
+
+
