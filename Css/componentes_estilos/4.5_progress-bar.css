@@ -56,7 +56,7 @@
   
  /* barras diferentes */
   /* Animación de ancho creciente */
-  @keyframes growWidth {
+  /* @keyframes growWidth {
     from {
       width: 0;
     }
@@ -64,18 +64,13 @@
       width: 100%;
     }
   }
-  
+   */
+
+
   /* Modificadores de color */
 
 
-
-
-
-
-
-  /* segunda barra */
-
-
+  /* segunda barra *
 
   /* Estilo base para los contenedores de progreso */
 .my-progress {

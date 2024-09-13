@@ -35,6 +35,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
 }
 
 .img_Sena img{
